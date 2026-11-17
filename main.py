@@ -15,11 +15,11 @@ sys.path.insert(0, os.path.join(os.path.dirname(os.path.abspath(__file__)), "ven
 import makefun_bars
 
 # SCHEDULE_PLACEHOLDER — replaced at build time by fit_schedule.py output.
-SCHEDULE = {"1036": {"side": "buy", "frac": 1.0}, "1113": {"side": "sell", "frac": 1.0}, "1403": {"side": "buy", "frac": 1.0}}
+SCHEDULE = {"386": {"side": "buy", "frac": 1.0}, "967": {"side": "sell", "frac": 1.0}, "1232": {"side": "buy", "frac": 1.0}, "1292": {"side": "sell", "frac": 1.0}, "1393": {"side": "buy", "frac": 1.0}, "1411": {"side": "sell", "frac": 1.0}}
 LIVE_BUY_FRAC = 0.30
 LIVE_BUY_BAR = 30
 
-DEV_FIRST_CLOSE_MS = 1794644940000  # published dev window's first bar close
+DEV_FIRST_CLOSE_MS = 1794809040000  # published dev window's first bar close
 
 
 def on_dev_window(state):
